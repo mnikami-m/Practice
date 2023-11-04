@@ -25,10 +25,8 @@ window.onload = (e) => {
             if (code) {
               drawRect(code.location);
               msg.innerText = code.data;
-              alert(code.data);
             } else {
                 msg.innerText = "Detecting QR-Code...";
-                alert(e);
             }
         }
         setTimeout(startTick, 250);
