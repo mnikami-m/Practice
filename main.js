@@ -28,6 +28,7 @@ window.onload = (e) => {
               alert(code.data);
             } else {
                 msg.innerText = "Detecting QR-Code...";
+                alert(e);
             }
         }
         setTimeout(startTick, 250);

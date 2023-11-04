@@ -8,12 +8,12 @@ h1{
 }
 
 #wrapper{
-    margin: 0px auto 0px auto;
+    margin: 0 auto 0 auto;
     width: 320px; height: auto;
 }
 
 #msg{
-    margin: 0px; padding: 10px;
+    margin: 0; padding: 10px;
     background-color: lightgray;
     text-align: center;
 }
